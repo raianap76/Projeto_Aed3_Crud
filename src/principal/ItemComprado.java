@@ -42,7 +42,7 @@ class ItemComprado implements Entidade{
 
     public void setID(int id){
         this.idItemComprado = id;
-    }
+    }//idItemComprado
 
     //Retorna um array de bytes com os bytes para escrever no arquivo
     public byte[] toByteArray() throws Exception {

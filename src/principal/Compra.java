@@ -16,6 +16,7 @@ class Compra implements Entidade{
         this.idCliente   = -1;
         this.dataCompra  = null;
         this.valorCompra = 0;
+      
     }
 
     public Compra(int idCliente, Date data){
